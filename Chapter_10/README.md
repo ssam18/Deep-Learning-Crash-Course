@@ -6,7 +6,7 @@ Tabular Q-learning on FrozenLake, DQN on CartPole, REINFORCE with baseline, PPO 
 
 ## Running
 
-From the `code_bundle/` root, install the dependencies and open the notebook:
+From the repository root, install the dependencies and open the notebook:
 
 ```bash
 pip install -r ../requirements.txt

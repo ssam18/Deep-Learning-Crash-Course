@@ -6,7 +6,7 @@ KS / PSI / CUSUM drift detection, fairness audit with TPR/FPR gap, tamper-eviden
 
 ## Running
 
-From the `code_bundle/` root, install the dependencies and open the notebook:
+From the repository root, install the dependencies and open the notebook:
 
 ```bash
 pip install -r ../requirements.txt

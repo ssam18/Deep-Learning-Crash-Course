@@ -4,7 +4,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).parent))
 from _nbutils import build_notebook, md, code
 
 CHAPTER = 12
-OUT = pathlib.Path(__file__).parent / f"Chapter_{CHAPTER}" / f"Chapter_{CHAPTER}_Monitoring_and_Scaling.ipynb"
+OUT = pathlib.Path(__file__).parent / f"Chapter_{CHAPTER:02d}" / f"Chapter_{CHAPTER:02d}_Monitoring_and_Scaling.ipynb"
 
 cells = []
 cells.append(md(
