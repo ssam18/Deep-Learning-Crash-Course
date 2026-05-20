@@ -1,6 +1,6 @@
 # Deep Learning Crash Course
 
-Official companion repository for **Deep Learning Crash Course**, an upcoming book by *Samaresh Kumar Singh* and *Joyjit Roy* — to be published by **BPB Publications**.
+Official companion repository for **Deep Learning Crash Course**, an upcoming book by *Samaresh Kumar Singh* and *Joyjit Roy* to be published by **BPB Publications**.
 
 > **Status:** the book is currently under editorial review and is expected to be published in **June–July 2026**.
 
