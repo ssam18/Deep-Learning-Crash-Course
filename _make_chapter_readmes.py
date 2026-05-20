@@ -46,14 +46,21 @@ CHAPTERS = [
      'KS / PSI / CUSUM drift detection, fairness audit with TPR/FPR gap, tamper-evident audit record, retraining-trigger logic, scaling cost calculator, dashboard sketch.'),
 ]
 
+REPO = 'ssam18/Deep-Learning-Crash-Course'
+
 for num, title, topic, summary in CHAPTERS:
     folder_name = f'Chapter_{num:02d}'
     nb = f'Chapter_{num:02d}_{topic}.ipynb'
+    rel = f'{folder_name}/{nb}'
+    colab = f'https://colab.research.google.com/github/{REPO}/blob/main/{rel}'
+    binder = f'https://mybinder.org/v2/gh/{REPO}/main?filepath={rel}'
     folder = ROOT / folder_name
     folder.mkdir(exist_ok=True)
     (folder / 'images').mkdir(exist_ok=True)
     readme = folder / 'README.md'
     readme.write_text(f"""# Chapter {num} — {title}
+
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)]({colab}) [![Open in Binder](https://mybinder.org/badge_logo.svg)]({binder})
 
 **Notebook**: [`{nb}`]({nb})
 
@@ -61,7 +68,7 @@ for num, title, topic, summary in CHAPTERS:
 
 ## Running
 
-From the repository root, install the dependencies and open the notebook:
+Click a badge above to launch this notebook in your browser (Colab or Binder), or run it locally:
 
 ```bash
 pip install -r ../requirements.txt
@@ -69,6 +76,8 @@ jupyter lab {nb}
 ```
 
 Run every cell top-to-bottom. Figures are written into [`images/`](images/) as PNG files at 150 dpi.
+
+When running in **Colab**, uncomment the `!pip install` line in the second cell of the notebook to install the chapter's dependencies. **Binder** picks them up automatically from `requirements.txt`.
 
 ## Exercises
 

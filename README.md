@@ -6,6 +6,10 @@ Official companion repository for **Deep Learning Crash Course**, an upcoming bo
 
 This repository contains the complete, executable source code and image bundles for every chapter, including worked solutions to the end-of-chapter exercises.
 
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_01/Chapter_01_Neural_Network_Foundations.ipynb) [![Open in Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_01/Chapter_01_Neural_Network_Foundations.ipynb)
+
+> **Run online with one click.** Use the badges above (or the per-chapter badges in the table below) to launch any notebook in Google Colab or Binder without installing anything locally. Both work in any modern browser. Colab needs a Google account; Binder does not.
+
 ---
 
 ## About the book
@@ -68,20 +72,20 @@ A GPU is helpful for chapters 4, 6, 7, 8, 9 but every notebook is sized to also 
 
 ## Chapter index
 
-| # | Title | Notebook |
-| - | ----- | -------- |
-| 1 | Neural Network Foundations Using Python and NumPy | [`Chapter_01/Chapter_01_Neural_Network_Foundations.ipynb`](Chapter_01/Chapter_01_Neural_Network_Foundations.ipynb) |
-| 2 | Setting Up a Modern Deep Learning Development Environment | [`Chapter_02/Chapter_02_Environment_Setup.ipynb`](Chapter_02/Chapter_02_Environment_Setup.ipynb) |
-| 3 | Your First Neural Network on the MNIST Dataset | [`Chapter_03/Chapter_03_First_Neural_Network_MNIST.ipynb`](Chapter_03/Chapter_03_First_Neural_Network_MNIST.ipynb) |
-| 4 | Convolutional Neural Networks | [`Chapter_04/Chapter_04_Convolutional_Neural_Networks.ipynb`](Chapter_04/Chapter_04_Convolutional_Neural_Networks.ipynb) |
-| 5 | Recurrent Neural Networks and Long Short-Term Memory | [`Chapter_05/Chapter_05_RNNs_and_LSTMs.ipynb`](Chapter_05/Chapter_05_RNNs_and_LSTMs.ipynb) |
-| 6 | Transformers and Attention Models | [`Chapter_06/Chapter_06_Transformers_and_Attention.ipynb`](Chapter_06/Chapter_06_Transformers_and_Attention.ipynb) |
-| 7 | Generative Models — GANs, VAEs and Diffusion | [`Chapter_07/Chapter_07_Generative_Models.ipynb`](Chapter_07/Chapter_07_Generative_Models.ipynb) |
-| 8 | Transfer Learning | [`Chapter_08/Chapter_08_Transfer_Learning.ipynb`](Chapter_08/Chapter_08_Transfer_Learning.ipynb) |
-| 9 | Model Optimization and Compression | [`Chapter_09/Chapter_09_Model_Optimization.ipynb`](Chapter_09/Chapter_09_Model_Optimization.ipynb) |
-| 10 | Reinforcement Learning | [`Chapter_10/Chapter_10_Reinforcement_Learning.ipynb`](Chapter_10/Chapter_10_Reinforcement_Learning.ipynb) |
-| 11 | MLOps and Deployment | [`Chapter_11/Chapter_11_MLOps_and_Deployment.ipynb`](Chapter_11/Chapter_11_MLOps_and_Deployment.ipynb) |
-| 12 | Monitoring and Scaling | [`Chapter_12/Chapter_12_Monitoring_and_Scaling.ipynb`](Chapter_12/Chapter_12_Monitoring_and_Scaling.ipynb) |
+| # | Title | Notebook | Run |
+| - | ----- | -------- | --- |
+| 1 | Neural Network Foundations Using Python and NumPy | [`Chapter_01/...`](Chapter_01/Chapter_01_Neural_Network_Foundations.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_01/Chapter_01_Neural_Network_Foundations.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_01/Chapter_01_Neural_Network_Foundations.ipynb) |
+| 2 | Setting Up a Modern Deep Learning Development Environment | [`Chapter_02/...`](Chapter_02/Chapter_02_Environment_Setup.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_02/Chapter_02_Environment_Setup.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_02/Chapter_02_Environment_Setup.ipynb) |
+| 3 | Your First Neural Network on the MNIST Dataset | [`Chapter_03/...`](Chapter_03/Chapter_03_First_Neural_Network_MNIST.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_03/Chapter_03_First_Neural_Network_MNIST.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_03/Chapter_03_First_Neural_Network_MNIST.ipynb) |
+| 4 | Convolutional Neural Networks | [`Chapter_04/...`](Chapter_04/Chapter_04_Convolutional_Neural_Networks.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_04/Chapter_04_Convolutional_Neural_Networks.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_04/Chapter_04_Convolutional_Neural_Networks.ipynb) |
+| 5 | Recurrent Neural Networks and Long Short-Term Memory | [`Chapter_05/...`](Chapter_05/Chapter_05_RNNs_and_LSTMs.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_05/Chapter_05_RNNs_and_LSTMs.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_05/Chapter_05_RNNs_and_LSTMs.ipynb) |
+| 6 | Transformers and Attention Models | [`Chapter_06/...`](Chapter_06/Chapter_06_Transformers_and_Attention.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_06/Chapter_06_Transformers_and_Attention.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_06/Chapter_06_Transformers_and_Attention.ipynb) |
+| 7 | Generative Models — GANs, VAEs and Diffusion | [`Chapter_07/...`](Chapter_07/Chapter_07_Generative_Models.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_07/Chapter_07_Generative_Models.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_07/Chapter_07_Generative_Models.ipynb) |
+| 8 | Transfer Learning | [`Chapter_08/...`](Chapter_08/Chapter_08_Transfer_Learning.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_08/Chapter_08_Transfer_Learning.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_08/Chapter_08_Transfer_Learning.ipynb) |
+| 9 | Model Optimization and Compression | [`Chapter_09/...`](Chapter_09/Chapter_09_Model_Optimization.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_09/Chapter_09_Model_Optimization.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_09/Chapter_09_Model_Optimization.ipynb) |
+| 10 | Reinforcement Learning | [`Chapter_10/...`](Chapter_10/Chapter_10_Reinforcement_Learning.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_10/Chapter_10_Reinforcement_Learning.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_10/Chapter_10_Reinforcement_Learning.ipynb) |
+| 11 | MLOps and Deployment | [`Chapter_11/...`](Chapter_11/Chapter_11_MLOps_and_Deployment.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_11/Chapter_11_MLOps_and_Deployment.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_11/Chapter_11_MLOps_and_Deployment.ipynb) |
+| 12 | Monitoring and Scaling | [`Chapter_12/...`](Chapter_12/Chapter_12_Monitoring_and_Scaling.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_12/Chapter_12_Monitoring_and_Scaling.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_12/Chapter_12_Monitoring_and_Scaling.ipynb) |
 
 ---
 
