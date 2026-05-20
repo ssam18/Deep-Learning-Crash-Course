@@ -30,3 +30,9 @@ runs/
 # OS metadata
 .DS_Store
 Thumbs.db
+
+# Internal notebook-build pipeline (kept locally, not shipped in the repo).
+# The .ipynb files in each Chapter_NN/ folder are the public deliverable.
+build_chapter_*.py
+_nbutils.py
+_make_chapter_readmes.py

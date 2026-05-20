@@ -39,8 +39,6 @@ The book covers:
 Deep-Learning-Crash-Course/
 ├── README.md                        <- this file
 ├── requirements.txt                 <- pinned package list for the whole book
-├── _nbutils.py                      <- shared notebook-builder helper
-├── build_chapter_<NN>.py            <- source-of-truth Python that builds chapter NN
 └── Chapter_<NN>/                    <- zero-padded so chapters sort 01..12
     ├── README.md                    <- per-chapter overview and run instructions
     ├── Chapter_<NN>_<topic>.ipynb   <- executable notebook (code + exercise solutions)
@@ -86,16 +84,6 @@ A GPU is helpful for chapters 4, 6, 7, 8, 9 but every notebook is sized to also 
 | 10 | Reinforcement Learning | [`Chapter_10/...`](Chapter_10/Chapter_10_Reinforcement_Learning.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_10/Chapter_10_Reinforcement_Learning.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_10/Chapter_10_Reinforcement_Learning.ipynb) |
 | 11 | MLOps and Deployment | [`Chapter_11/...`](Chapter_11/Chapter_11_MLOps_and_Deployment.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_11/Chapter_11_MLOps_and_Deployment.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_11/Chapter_11_MLOps_and_Deployment.ipynb) |
 | 12 | Monitoring and Scaling | [`Chapter_12/...`](Chapter_12/Chapter_12_Monitoring_and_Scaling.ipynb) | [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/ssam18/Deep-Learning-Crash-Course/blob/main/Chapter_12/Chapter_12_Monitoring_and_Scaling.ipynb) [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/ssam18/Deep-Learning-Crash-Course/main?filepath=Chapter_12/Chapter_12_Monitoring_and_Scaling.ipynb) |
-
----
-
-## Regenerating notebooks
-
-The `.ipynb` files are produced from the `build_chapter_<NN>.py` scripts at the repo root. Edits to the source script are the supported way to change a notebook, the `.ipynb` is a build artefact.
-
-```bash
-python3 build_chapter_06.py        # rebuilds Chapter_06/Chapter_06_Transformers_and_Attention.ipynb
-```
 
 ---
 

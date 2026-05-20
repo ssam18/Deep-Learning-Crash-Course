@@ -1,16 +1,14 @@
 # Validate the chapter notebooks on every push and pull request.
 #
-# This repo is a bundle of Jupyter notebooks and notebook-builder scripts, not
-# a pip-installable package, so the CI deliberately does NOT run pytest or
-# install the heavy ML dependencies (TensorFlow, PyTorch, etc.).
+# This repo is a bundle of Jupyter notebooks, not a pip-installable package,
+# so the CI deliberately does NOT run pytest or install the heavy ML
+# dependencies (TensorFlow, PyTorch, etc.).
 #
 # Each green check confirms that:
 #   1. Every .ipynb parses as valid JSON (i.e. the file is not corrupt).
 #   2. Every code cell parses with ast.parse (i.e. no Python syntax errors).
-#   3. Every build_chapter_NN.py runs successfully and produces the expected
-#      .ipynb at the expected path.
 #
-# The runtime is < 30 s — no ML wheels are installed.
+# The runtime is < 30 s.
 
 name: Validate notebooks
 
@@ -62,23 +60,3 @@ jobs:
                   print('  ', e)
               sys.exit(1)
           PY
-
-      - name: Rebuild every notebook from its build_chapter_NN.py
-        run: |
-          set -e
-          for n in 01 02 03 04 05 06 07 08 09 10 11 12; do
-            python "build_chapter_${n}.py"
-          done
-
-      - name: Check that nothing changed after rebuild
-        run: |
-          # Build is deterministic: if the committed .ipynb matches what the
-          # build script produces, `git diff` will be empty. Any drift means
-          # someone edited a .ipynb by hand without re-running the builder.
-          if [ -n "$(git status --porcelain)" ]; then
-            echo "Rebuilt notebooks differ from committed ones:"
-            git status --porcelain
-            git --no-pager diff --stat
-            exit 1
-          fi
-          echo "Committed notebooks match build_chapter_*.py output."
