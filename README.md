@@ -14,18 +14,18 @@ This repository contains the complete, executable source code and image bundles 
 
 The book covers:
 
-1. **Neural Network Foundations** — perceptrons, activations, forward/backward propagation, optimisers, all in pure NumPy.
-2. **Modern Development Environment** — Python, virtual environments, TensorFlow & PyTorch installs, GPU acceleration, Jupyter, Colab, Git, Docker.
-3. **Your First Neural Network on MNIST** — end-to-end supervised learning in both frameworks.
-4. **Convolutional Neural Networks** — convolution from scratch, residual blocks, batch normalisation, augmentation, Grad-CAM.
-5. **Recurrent Networks and LSTMs** — vanishing gradients, gates, sequence modelling, text generation.
-6. **Transformers and Attention** — scaled dot-product attention from scratch, multi-head attention, BERT and GPT mechanics.
-7. **Generative Models** — GANs, VAEs, denoising diffusion, FID evaluation.
-8. **Transfer Learning** — feature extraction, two-phase fine-tuning, discriminative learning rates, LoRA, domain adaptation.
-9. **Model Optimization and Compression** — pruning, INT8 quantization (PTQ + QAT), knowledge distillation, deployment-ready models.
-10. **Reinforcement Learning** — tabular Q-learning, DQN, REINFORCE, PPO from scratch.
-11. **MLOps and Deployment** — model packaging (ONNX/TorchScript), FastAPI serving, Docker, MLflow, CI/CD, safe rollout strategies.
-12. **Monitoring and Scaling** — data drift detection (KS / PSI / CUSUM), fairness audits, Kubernetes autoscaling, cost optimisation.
+1. **Neural Network Foundations** perceptrons, activations, forward/backward propagation, optimisers, all in pure NumPy.
+2. **Modern Development Environment** Python, virtual environments, TensorFlow & PyTorch installs, GPU acceleration, Jupyter, Colab, Git, Docker.
+3. **Your First Neural Network on MNIST** end-to-end supervised learning in both frameworks.
+4. **Convolutional Neural Networks** convolution from scratch, residual blocks, batch normalisation, augmentation, Grad-CAM.
+5. **Recurrent Networks and LSTMs** vanishing gradients, gates, sequence modelling, text generation.
+6. **Transformers and Attention** scaled dot-product attention from scratch, multi-head attention, BERT and GPT mechanics.
+7. **Generative Models** GANs, VAEs, denoising diffusion, FID evaluation.
+8. **Transfer Learning** feature extraction, two-phase fine-tuning, discriminative learning rates, LoRA, domain adaptation.
+9. **Model Optimization and Compression** pruning, INT8 quantization (PTQ + QAT), knowledge distillation, deployment-ready models.
+10. **Reinforcement Learning** tabular Q-learning, DQN, REINFORCE, PPO from scratch.
+11. **MLOps and Deployment** model packaging (ONNX/TorchScript), FastAPI serving, Docker, MLflow, CI/CD, safe rollout strategies.
+12. **Monitoring and Scaling** data drift detection (KS / PSI / CUSUM), fairness audits, Kubernetes autoscaling, cost optimisation.
 
 ---
 
